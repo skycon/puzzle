@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<title>Our Funky HTML Page</title>
+<meta name="description" content="Our first page">
+<meta name="keywords" content="html tutorial template">
+<script src="test.js"></script>
+</head>
+<body>
+    <a target="_blank" href="https://drive.google.com/file/d/1IMGdsvHMJN2o2Eq_Fk3-EgJGSd5jquxl/view?usp=share_link">Introduction Letter</a> <br>
+    <a target="_blank" href="https://drive.google.com/file/d/1Obp6nsju2-MOExdLxEXPlYM1q7oMy-kq/view?usp=share_link">Fill in key Words</a> <br>
+    <a target="_blank" href="https://drive.google.com/file/d/1MgT7cswLfguwf5YT3RGywBPEpZSsF7d5/view?usp=share_link">Puzzle 1</a> <br>
+    <a target="_blank" href="https://drive.google.com/file/d/1ZIfLOWuuImrq90xaMI2vpcjg7xlgP6Hj/view?usp=share_link">Puzzle 2</a> <br>
+    <a target="_blank" href="https://drive.google.com/file/d/1SXqxUmERSHx6EsymRE5woxPgxjX34eV6/view?usp=share_link">Puzzle 15</a> <br>
+    <a target="_blank" href="https://drive.google.com/file/d/185I67N6-usBymSh9noa4f_8SP6xUVCi2/view?usp=share_link">Puzzle 34</a> <br>
+    <a target="_blank" href="https://drive.google.com/file/d/1z9aDUlCiKJHngAJjW9YpIyS1CrKvPS9G/view?usp=sharing">Appendix: Keyword Modified Atbash Cipher</a> <br>
+    
+    <br>
+
+    <button onclick="puzzle2Function()">Puzzle 2</button>
+    <button onclick="puzzle15Function()">Puzzle 15</button>
+    <button onclick="puzzle34Function()">Puzzle 34</button>
+
+    <br><br>
+
+    <div>Journal Entry:</div>
+<div id="encoded" style="border: 0 solid #373930; border-width: medium; width: 350px; background-color: #e7c9a2; padding: 12px"></div>
+
+<br>
+<label>Keyword:</label>
+<input type="text" id="keyword" name="keyword" oninput="onKeywordChange(this.value)">
+<br><br>
+<span>Key: </span>
+<div style="font-family: monospace; font-size: 30px;">ABCDEFGHIJKLMNOPQRSTUVWXYZ</div>
+<div id="keytext" style="font-family: monospace; font-size: 30px;">ZYXWVUTSRQPONMLKJIHGFEDCBA</div>
+<br><br><br>
+
+<div>Decoded:</div>
+<div id="decoded" style="border: 0 solid #373930; border-width: medium; width: 350px; background-color: #e7c9a2; padding: 12px"></div>
+
+
+
+
+<button onclick="myFunction()">Click me</button>
+
+</body>
+</html>
